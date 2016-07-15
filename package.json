@@ -1,0 +1,17 @@
+{
+  "name": "myapp",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.9.2"
+  },
+  "description": "my ecommers app",
+  "main": "server.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hrodberaht",
+  "license": "ISC"
+}
