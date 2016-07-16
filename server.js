@@ -3,9 +3,9 @@ var morgan = require("morgan");
 var path = require("path");
 var bodyParser = require('body-parser');
 
-var home = require("./homepage");
-var loginpage = require("./loginpage");
-var page404 = require("./page404")
+var home = require("./pages/homepage");
+var loginpage = require("./pages/loginpage");
+var page404 = require("./pages/page404")
 
 var app = express();
 app.set("views", path.resolve(__dirname, "views"));
