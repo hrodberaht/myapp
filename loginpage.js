@@ -1,9 +1,9 @@
-var id = function (req , res ){
+var loginpage = function (req , res ){
     var hi = req.body.name;
     var pass = req.body.pass;
     if (pass == "123"){
        
-        res.render("idpage", {
+        res.render("loginpage", {
         name: hi
         });
         
@@ -15,4 +15,4 @@ var id = function (req , res ){
     }    
     };
 
-module.exports = id;
+module.exports = loginpage;
